@@ -2,43 +2,27 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Estudio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tu Estudio</title>
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-  <header>
-    <h1>Bienvenidos a Nuestro Estudio de Ingeniería y Arquitectura</h1>
-    <nav>
-      <a href="#nosotros">Nosotros</a>
-      <a href="#servicios">Servicios</a>
-      <a href="#contacto">Contacto</a>
-    </nav>
-  </header>
-
-  <section id="nosotros">
-    <h2>Sobre Nosotros</h2>
-    <p>Somos un equipo de ingenieros y arquitectos dedicados a proyectos innovadores.</p>
-  </section>
-
-  <section id="servicios">
-    <h2>Servicios</h2>
+  <nav class="menu">
     <ul>
-      <li>Diseño arquitectónico</li>
-      <li>Consultoría de ingeniería</li>
-      <li>Gestión de proyectos</li>
+      <li><a href="#architecture">Architecture</a></li>
+      <li><a href="#art">Art</a></li>
+      <li><a href="#about">Studio</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
-  </section>
+  </nav>
 
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <p>Correo: contacto@miestudio.com</p>
-    <button onclick="mostrarAlerta()">¡Escríbenos!</button>
-  </section>
-
-  <footer>
-    <p>© 2025 Mi Estudio</p>
-  </footer>
+  <div class="slider">
+    <div class="slides">
+      <img src="img1.jpg" alt="Proyecto 1">
+      <img src="img2.jpg" alt="Proyecto 2">
+      <img src="img3.jpg" alt="Proyecto 3">
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
